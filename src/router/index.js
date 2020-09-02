@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 import cadastro from '../views/cadastro.vue'
 import contact from '../views/contact.vue'
+import about from '../views/about.vue'
 
 // fazendo uso da router
 Vue.use(VueRouter)
@@ -14,7 +15,8 @@ const routes =
 
     
    {name:'cadastro',path:'/',component:cadastro},
-   {name:'contact',path:'/sobre',component:contact}
+   {name:'about',path:'/sobre',component:about},
+   {name:'contact',path:'/contato',component:contact}
 ]
 
 

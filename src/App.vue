@@ -8,9 +8,9 @@
   
        
   <div class="menu">
+     <router-link to ="/"> <span> .cadastro</span></router-link>
       <router-link to ="/sobre"><span> .sobre</span></router-link>
-
-     <router-link to ="/sobre"> <span> .contato</span></router-link>
+     <router-link to ="/contato"> <span> .contato</span></router-link>
    </div>
   
    
@@ -44,8 +44,8 @@ export default {
 
 .menu
 {
-   
-  text-align: right;
+   text-align: right;
    margin: 1rem;
 }
+
 </style>
