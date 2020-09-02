@@ -1,7 +1,9 @@
+
 <template>
   
   
   <div id="app">
+    <Header/>
    <div>
     <img src="@/assets/logo.png" alt="" loading ="lazy" class=" img-logo ">
    </div>
@@ -16,14 +18,23 @@
    
   
   <router-view/>
+  <Footer/>
   </div>
 </template>
 
 <script>
+// importando componentes
+  import Footer from '../src/components/footer.vue'
+  import Header from '../src/components/header.vue'
 //import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App'
+  name: 'App',
+  components:
+  {
+    Footer,
+    Header
+  }
  
 }
 </script>

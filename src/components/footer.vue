@@ -7,13 +7,22 @@
 
 <style  scoped>
 
-    
+ .container
+ {
+     background-color: green;
+     margin-top: 3%;
+     padding: 2%;
+ }
 
 </style>
 
 
 <script>
-export default {
-    
+
+export default 
+{
+ name:'Footer', 
+ components:{}
+ 
 }
 </script>
