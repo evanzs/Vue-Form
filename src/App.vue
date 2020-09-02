@@ -1,6 +1,20 @@
 <template>
+  
+  
   <div id="app">
+   <div>
+    <img src="@/assets/logo.png" alt="" loading ="lazy" class=" img-logo ">
+   </div>
+  
+       
+  <div class="menu">
+      <router-link to ="/sobre"><span> .sobre</span></router-link>
+
+     <router-link to ="/sobre"> <span> .contato</span></router-link>
+   </div>
+  
    
+  
   <router-view/>
   </div>
 </template>
@@ -14,16 +28,24 @@ export default {
 }
 </script>
 
-
-
-
 <style>
-#app {  
-
-  text-align: center;
+#app 
+{
   
+  text-align: center;
 }
 
+.img-logo
+{
+  margin: 0 auto;
+  width: 100px ;
+ 
+}
 
-
+.menu
+{
+   
+  text-align: right;
+   margin: 1rem;
+}
 </style>

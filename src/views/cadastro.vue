@@ -3,7 +3,7 @@
     
 <div class ="container">
 
-<img src="@/assets/logo.png" alt="" class="img-fluid img-logo ">
+
  <H1> .First Vue-Form</H1>
 
    <form action="">
