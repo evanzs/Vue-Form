@@ -13,6 +13,7 @@
      <router-link to ="/"> <span> .cadastro</span></router-link>
       <router-link to ="/sobre"><span> .sobre</span></router-link>
      <router-link to ="/contato"> <span> .contato</span></router-link>
+      <router-link to ="/arvore"> <span> .arvore</span></router-link>
    </div>
   
    

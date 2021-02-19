@@ -1,17 +1,20 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueTree from '@ssthouse/vue-tree-chart'
 
 //imports de componentes criados
-
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 //importanto as rotas
 import router from './router'
 
 
 
-// imports de Bootsrap
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 
+
+Vue.component('vue-tree', VueTree)
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
 
 Vue.config.productionTip = false
 
